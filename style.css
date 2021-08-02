@@ -126,9 +126,10 @@ a:hover {
     margin-left: 20px;
     width: 430px;
     height: 20px;
-    border: none;
-    
-    
+    border: none; 
+}
+.searchtext:focus{
+    outline: none;
 }
 .keyb{
     max-width: 20px;
@@ -152,7 +153,9 @@ a:hover {
 
 #search:focus {
     box-shadow: 1px 1px 5px grey;
+    
 }
+
 #search:hover {
     box-shadow: 1px 1px 5px grey;
 }
@@ -203,9 +206,10 @@ a:hover {
     grid-area: google-text;
     justify-self: center;
     margin-top: 25px;
+    
 }
 #deutsch {
-    color: blue;
+    color: #1a0dab;
 }
 
 /*Footer Section*/
