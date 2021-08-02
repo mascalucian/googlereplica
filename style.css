@@ -212,51 +212,82 @@ a:hover {
     color: #1a0dab;
 }
 
-/*Footer Section*/
+/*partea de jos a paginii - footer*/
 #footer {
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 80px 80px 80px 190px 1180px 110px 70px 70px;
+    grid-template-columns: 80px 80px 80px 190px 1230px 110px 70px 70px;
     grid-template-rows: 50px;
     grid-template-areas: 
     "despre advertising business hsw . privacy terms settings";
+    background-color: rgba(0,0,0,.05);
+    color: rgba(0,0,0,.54);
+}
+#footer2 {
+    position: absolute;
+    bottom: 50px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 190px 1230px 110px 70px 70px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "despre advertising business hsw . privacy terms settings";
+    background-color: rgba(0,0,0,.05);
+    color: rgba(0,0,0,.54);
+    
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
 
 #advertising {
     grid-area: advertising;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #despre {
     grid-area: despre;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #business {
     grid-area: business;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #hsw {
     grid-area: hsw;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #privacy {
     grid-area: privacy;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #terms {
     grid-area: terms;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 #settings {
     grid-area: settings;
     justify-self: center;
     align-self: center;
+    color: #70757a;
+    font-size: 14px;
 }
 
 /* Popup container */
