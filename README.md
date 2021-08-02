@@ -1,4 +1,3 @@
-# Google-Homepage
-I recreated the Google Homepage
-
-Checkout the [DEMO](https://learn-webdevyt.github.io/Google-Homepage/)
+# googlereplica
+Week 1 - Front-end w/ Marian Goia
+Refacere site google
