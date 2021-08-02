@@ -2,6 +2,21 @@ html {
     height: 100%;
     width: 100%;
 }
+.hoverinfo {
+    
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .hoverinfo p {
+    display: none;
+    color: #000000;
+  }
+  .hoverinfo:hover p {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+  }
+
 #parteadesus {
     display: grid;
     grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
@@ -136,6 +151,7 @@ a:hover {
     max-width: 20px;
     margin-top: 12px;
     margin-left: 17px;
+    opacity: 60%;
 }
 .mic{
     max-width: 13px;
@@ -144,12 +160,12 @@ a:hover {
 #search {
     grid-area: search;
     height: 44px;
-    width: 92%;
+    width: 91.75%;
     align-self: center;
     justify-self: center;
     border: 1px solid rgba(0, 0, 0, 0.151);
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 21px;
 }
 
 #search:focus {
@@ -201,12 +217,13 @@ a:hover {
 }
 
 .spatiu{
-    margin-left: 5px;
+    margin-left: 6px;
 }
 #google-text {
     grid-area: google-text;
     justify-self: center;
     margin-top: 23px;
+    margin-left: -2px;
     
 }
 #deutsch {
